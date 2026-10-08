@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>KURT FIND</title>
+    </head>
+
+    <body>
+        <body bgcolor="lightblue">
+
+            <header id="top">
+                <img src="logo.png" alt="Kurt Find logo" width="150">
+                <h1>KURT FIND</h1>
+                <p><em>Your ride, on time, every time.</em></p>
+                <nav>
+                    <a href="#book">Book at Kurt Find</a> |
+                    <a href="#fleet">Our Vehicles</a> |
+                    <a href="#map">Map</a> |
+                    <a href="#media">Media</a> |
+                    <a href="#schedule">Schedule</a> |
+                    <a href="#contact">Contact</a>
+                </nav>
+                <hr>
+            </header>
+
+
+
+
+        <main>
+            
+            <section id="book">
+                <h2>Book a KURT</h2>
+
+                <form action="#" method="post">
+                    <fieldset>
+                        <legend>Trip Details</legend>
+
+                        <p>
+                            <label for="name">Enter Full Name:</label><br>
+                            <input type="text" name="name" id="name" placeholder="KURT POGI" required>
+                        </p>
+
+                        <p>
+                            <label for="phone">Enter Phone Number:</label><br>
+                            <input type="tel" name="phone" id="phone" placeholder="0994 167 3365 FIND KURT NUMBER" required>
+                        </p>
+
+                        <p>
+                            <label for="email">Enter Email:</label><br>
+                            <input type="email" name="email" id="email" placeholder="you@example.com">
+                        </p>
+
+                        <p>
+                            <label for="pickup">Enter Pick-up location at KURT FIND:</label><br>
+                            <input type="text" name="pickup" id="pickup" list="places">
+                        </p>
+
+                        <p>
+                            <label for="dropoff">Enter Drop-off location:</label><br>
+                            <input type="text" name="dropoff" id="dropoff" list="places">
+                        </p>
+
+                    <datalist id="KURT FIND LOCATED PLACES">
+                            <option value="BURNHAM PARK">
+                            <option value="SM">
+                            <option value="UNIVERSITY OF BAGUIO">
+                            <option value="MAGSAYSAY">
+                        </datalist>
+
+                        <p>
+                            <label for="date">Date:</label>
+                            <input type="date" name="date" id="date" required>
+                            <label for="time">Time:</label>
+                            <input type="time" name="time" id="time" required>
+                        </p>
+
+                        <p>
+                            <label for="passengers">Passengers (1-10):</label>
+                            <input type="number" name="passengers" id="passengers" min="1" max="10" value="1">
+                        </p>
+
+                        <p>
+                            <label for="vehicle">Vehicle type:</label>
+                            <select name="vehicle" id="vehicle">
+                                <option value="taxi">Taxi</option>
+                                <option value="van">Van</option>
+                                <option value="motorcycle">Motorcycle Taxi</option>
+                                <option value="tricycle">Tricycle</option>
+                                <option value="train">Train</option>
+                                <option value="jet">Jet</option>
+                            </select>
+                        </p>
+
+                        <p>
+                            Select Payment method:<br>
+                            <input type="radio" name="payment" id="cash" value="cash" checked>
+                            <label for="cash">Cash</label>
+
+                            <input type="radio" name="payment" id="card" value="card">
+                            <label for="card">Card</label>
+
+                            <input type="radio" name="payment" id="Gcash" value="Gcash">
+                            <label for="ewallet">E-Wallet</label>
+                        </p>
+
+                        <p>
+                            Extras:<br>
+                            <input type="checkbox" name="extras" id="luggage" value="luggage">
+                            <label for="luggage">Extra luggage</label><br>
+
+                            <input type="checkbox" name="extras" id="childseat" value="childseat">
+                            <label for="childseat">Child seat</label><br>
+
+                            <input type="checkbox" name="extras" id="wheelchair" value="wheelchair">
+                            <label for="wheelchair">Wheelchair accessible</label>
+                        </p>
+
+                        <p>
+                            <label for="notes">Notes for the driver:</label><br>
+                            <textarea name="notes" id="notes" rows="4" cols="40" placeholder="Landmarks, special instructions..."></textarea>
+                        </p>
+
+                        <p>
+                            <input type="checkbox" name="terms" id="terms" value="agree" required>
+                            <label for="terms">I agree to the <a href="#terms-info">Terms &amp; Conditions</a></label>
+                        </p>
+
+                        <p>
+                            <button type="submit">Book Now</button>
+                            <button type="reset">Clear</button>
+                        </p>
+                    </fieldset>
+                </form>
+                <hr>
+            </section>
+
+            
+            <section id="fleet">
+                <h2>Our Vehicles</h2>
+
+                
+                <figure>
+                    <img src="ftaxi.png.png" alt="KURT FIND TAXI" width="350" height="200">
+                    <figcaption><strong>Taxi</strong> - Fast and comfortable for up to 2 passengers who cant pay.</figcaption>
+                </figure>
+
+               
+                <figure>
+                    <img src="bang.png.jpg" alt="KURT FIND VAN" width="350" height="200">
+                    <figcaption><strong>Van</strong> - Ideal for singles only and groups of up to 5 or 10.</figcaption>
+                </figure>
+
+                
+                <figure>
+                    <img src="trycicle.png" alt="KURT FIND MOTORCYCLE " width="350" height="200">
+                    <figcaption><strong>Motorcycle Taxi</strong> - The quickest way through traffic for 1 passenger.</figcaption>
+                </figure>
+
+                
+                <figure>
+                    <img src="train.png" alt="KURT FIND TRAIN" width="350" height="200">
+                    <figcaption><strong>Train</strong> - Comfortable long-distance rides for large groups.</figcaption>
+                </figure>
+
+                
+                <figure>
+                    <img src="jet.png" alt="KURT FIND JET" width="350" height="200">
+                    <figcaption><strong>Jet</strong> - Premium air travel for when you need to get there fastest.</figcaption>
+                </figure>
+            </section>
+
+            <section id="map">
+                <h2>Find Our Stops</h2>
+                <p>Map of our main terminal (change the coordinates to your own location):</p>
+
+                <iframe
+                    title="KURT FIND TERMINAL MAP"
+                    width="600"
+                    height="400"
+                    src="https://www.openstreetmap.org/export/embed.html?bbox=120.585%2C16.395%2C120.607%2C16.410&amp;layer=mapnik&amp;marker=16.4023%2C120.5960">
+                </iframe>
+
+                <br>
+<a href="https://www.openstreetmap.org/?mlat=16.4023&amp;mlon=120.5960#map=15/16.4023/120.5960" target="_blank" rel="noopener">View larger map</a>
+
+<h3>Image Map: Route Overview</h3>
+<p>Click a stop on the picture:</p>
+
+<img src="https://placehold.co/600x200?text=Burnham+%7C+City+Hall+%7C+UB"
+     alt="Route diagram with three stops" width="600" height="200" usemap="#routemap">
+
+<map name="routemap">
+    <area shape="rect" coords="0,0,200,200" href="https://www.openstreetmap.org/search?query=Burnham%20Park%20Baguio" target="_blank" alt="BURNHAM">
+    <area shape="rect" coords="200,0,400,200" href="https://www.openstreetmap.org/search?query=Baguio%20City%20Hall" target="_blank" alt="CITY HALL">
+    <area shape="rect" coords="400,0,600,200" href="https://www.openstreetmap.org/search?query=University%20of%20Baguio" target="_blank" alt="UNIVERSITY OF BAGUIO">
+</map>
+                <hr>
+            </section>
+
+            <section id="media">
+                <h2>Media</h2>
+
+                <h3>How to use KURT FIND (Video)</h3>
+                <video width="480" controls poster="videoplayback.mp4">
+                    <source src="videoplayback.mp4" type="video/mp4">
+                    <source src="cat-kung-fu-x100000000000000-1080-ytshorts.savetube.me.mp4" type="video/ogg">
+                </video>
+
+                <h3>Driver Announcement (Audio)</h3>
+                <audio controls>
+                    <source src="tricycle driver with a radio announcer voice.mp3" type="audio/mpeg">
+                    <source src="https://www.youtube.com/watch?v=-8rrXKD5XKc" type="audio/ogg">
+                    Your browser does not support the audio element.
+                </audio>
+
+                <h3>Watch on YouTube (Embedded)</h3>
+                <iframe
+                    width="560"
+                    height="315"
+                    src="videoplayback (1).mp4"
+                    title= "KURT FIND YouTube video"
+                    allowfullscreen>
+                </iframe>
+                <hr>
+            </section>
+
+            <section id="schedule">
+                <h2>KURT FIND Schedule</h2>
+
+                <table border="1" cellpadding="6" cellspacing="0">
+                    <caption>Daily departures from Central Terminal</caption>
+                    <thead>
+                        <tr>
+                            <th>Route</th>
+                            <th>Departure</th>
+                            <th>Arrival</th>
+                            <th>Fare</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Terminal to BURNHAM PARK</td>
+                            <td>6:00 AM</td>
+                            <td>6:30 AM</td>
+                            <td>&#8369;30</td>
+                        </tr>
+                        <tr>
+                            <td>Terminal to UNIVERSITY OF BAGUIO</td>
+                            <td>7:00 AM</td>
+                            <td>7:40 AM</td>
+                            <td>&#8369;45</td>
+                        </tr>
+                        <tr>
+                            <td>Terminal to SM</td>
+                            <td>9:00 AM</td>
+                            <td>10:00 AM</td>
+                            <td>&#8369;120</td>
+                        </tr>
+                        <tr>
+                            <td>Terminal to MAGSAYSAY</td>
+                            <td>1:00 PM</td>
+                            <td>1:25 PM</td>
+                            <td>&#8369;25</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3>Check Your Route</h3>
+                <form action="#" method="get">
+                    <p>
+                        <label for="route">Choose a route:</label>
+                        <select name="route" id="route">
+                            <option value="BURNHAM PARK">Terminal to BURNHAM</option>
+                            <option value="CITY HALL">Terminal to UNIVERSITY OF BAGUIO</option>
+                            <option value="SM">Terminal to SM</option>
+                            <option value="MAGSAYSAY">Terminal to MAGSAYSAY</option>
+                        </select>
+                        <button type="submit">Search</button>
+                    </p>
+                </form>
+                <hr>
+            </section>
+
+            
+            <section id="contact">
+                <h2>Contact &amp; Feedback</h2>
+
+                <form action="#" method="post" enctype="multipart/form-data">
+                    <fieldset>
+                        <legend>Send Feedback</legend>
+
+                        <p>
+                            <label for="fbname">Your name:</label><br>
+                            <input type="text" name="fbname" id="fbname" required>
+                        </p>
+
+                        <p>
+                            <label for="rating">Rate your ride (1-5):</label>
+                            <input type="range" name="rating" id="rating" min="1" max="5" value="5">
+                        </p>
+
+                        <p>
+                            <label for="topic">Topic:</label>
+                            <select name="topic" id="topic">
+                                <option value="compliment">Compliment</option>
+                                <option value="complaint">Complaint</option>
+                                <option value="lost">Lost item</option>
+                                <option value="suggestion">Suggestion</option>
+                            </select>
+                        </p>
+
+                        <p>
+                            <label for="message">Message:</label><br>
+                            <textarea name="message" id="message" rows="5" cols="40" required></textarea>
+                        </p>
+
+                        <p>
+                            <label for="photo">Attach a photo (optional):</label><br>
+                            <input type="file" name="photo" id="photo" accept="image/*">
+                        </p>
+
+                        <p>
+                            <button type="submit">Send Feedback</button>
+                        </p>
+                    </fieldset>
+                </form>
+
+                <h3>Reach Us</h3>
+                <address>
+                    GoRide Transport Co.<br>
+                    2600 Buguet, Baguio, Philippines<br>
+                    Phone: <a href="tel:+639171234567">0994 167 3365</a><br>
+                    Email: <a href="mailto:support@goride.example">20256025@s.ubaguio.edu</a>
+                </address>
+                <hr>
+            </section>
+
+            
+            <section id="links">
+                <h2>Useful Links</h2>
+                <ul>
+                    <li><a href="https://www.openstreetmap.org" target="_blank" rel="noopener">OpenStreetMap</a></li>
+                    <li><a href="https://maps.google.com" target="_blank" rel="noopener">Google Maps</a></li>
+                    <li><a href="https://www.facebook.com" target="_blank" rel="noopener">Our Facebook Page</a></li>
+                    <li><a href="#top">Back to top &#8593;</a></li>
+                </ul>
+            </section>
+
+           
+            <section id="terms-info">
+                <h2>Terms &amp; Conditions</h2>
+                <details>
+                    <summary>Read the terms</summary>
+                    <ol>
+                        <li>Bookings must be made at least 30 minutes before pick-up.</li>
+                        <li>Cancellations made less than 20 minutes before pick-up may be charged a fee.</li>
+                        <li>Passengers must follow the driver's safety instructions at all times.</li>
+                    </ol>
+                </details>
+            </section>
+
+        </main>
+
+        <footer>
+            <hr>
+            <p>&copy; 2026 KURT FIND Transport Co. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
